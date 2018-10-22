@@ -1,0 +1,33 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insider,
+.insider2,
+.insider3,
+.insider4{
+  border-radius:10px;
+  width: 20%;
+  height: 20%;
+  border: 1px solid black;
+  box-shadow: 7px 7px 4px 2px #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.para {
+  display: none;
+}
+
+.backG {
+  background-color: #C9CFD1;
+}
+
+.bCol{
+}
